@@ -9,18 +9,33 @@
 }
 body {
     background-color:white;
+    padding:80px;
+
+}
+
+h1 {
+    padding:10px;
+}
+
+p {
+    padding:10px;
 }
 
 header {
-    width:100%;
-    height: 50px;
-    line-height: 50px;
     color:black;
     background-color:pink;
     position:fixed;
     top:0px;
     left:0px;
     right:0px;
+    padding:5px;
+}
+
+footer {
+    color:black;
+    background-color:pink;
+    text-align:center;
+    padding: 5px;px;
 }
 
 nav {
@@ -32,4 +47,8 @@ ul li {
     display: inline;
     list-style-type: none;
     font-size: 25px;
+}
+
+main {
+    text-align:center
 }
