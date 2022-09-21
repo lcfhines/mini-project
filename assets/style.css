@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* wire framing borders */
+    border: 1px solid red;
+  
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    background-color:white;
+}
+
+header {
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    color:black;
+    background-color:pink;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+}
+
+nav {
+    text-align: right;
+
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+}
